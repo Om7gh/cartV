@@ -64,13 +64,18 @@ body {
 
 .container ul {
   list-style: disc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
 }
 
 .container ul li {
   color: #43434a;
   font-size: 0.9rem;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .infos {
@@ -104,7 +109,7 @@ body {
   font-size: 1rem;
 }
 .infos button:nth-child(2) {
-  background: rgb(18, 247, 18);
+  background: rgb(4, 209, 4);
 }
 .infos button:nth-child(2) a {
   color: white;
@@ -128,5 +133,8 @@ body {
   }
   .infos button {
     width: 100%;
+  }
+  .container ul {
+    width: 90%;
   }
 }
